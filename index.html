@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <title>Murilo Ribeiro - Desenvolvedor Backend</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+    <a class="navbar-brand" href="#">Murilo Ribeiro</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">Sobre Mim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#educacao">Educação</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projetos">Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#habilidades">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Conteúdo da Página -->
+  <div id="content">
+    <header class="bg-primary text-white text-center py-5">
+      <img src="assets/images/eu.jpg" alt="Sua Foto" class="rounded-circle mb-3"
+        style="width: 150px; height: 150px; object-fit: cover" />
+      <h1 class="animate__animated animate__fadeInUp">Murilo Ribeiro</h1>
+      <p class="animate__animated animate__fadeInUp">Desenvolvedor Backend</p>
+    </header>
+
+    <section id="sobre" class="container mt-4">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title animate__animated animate__fadeInUp">
+            Sobre Mim <i class="fas fa-user"></i>
+          </h2>
+          <p class="animate__animated animate__fadeInUp">
+            Saudações! Sou o Murilo, nascido em 19 de abril de 1997, residente em Presidente Epitácio, no interior do
+            estado de São Paulo, onde passei toda a minha vida. Sou um tecnólogo em Análise e Desenvolvimento de
+            Sistemas formado pelo Instituto Federal de Ciências e Tecnologias (IFSP) em minha cidade. Apesar de já ter
+            concluído minha formação, continuo praticando ocasionalmente o desenvolvimento de software e análise de
+            projetos para manter-me atualizado e aplicar os conhecimentos adquiridos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="educacao" class="container mt-4">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title animate__animated animate__fadeInUp">
+            Educação <i class="fas fa-book"></i>
+          </h2>
+          <p class="animate__animated animate__fadeInUp">
+            Além da graduação, busquei aprimorar meus conhecimentos por meio de cursos disponíveis na plataforma Udemy.
+            Lá, aprendi Java, Programação Orientada a Objetos, Spring Boot, MySQL, REST API e Modelagem UML com o
+            professor Nélio Alves, coordenador de cursos na escola de programação DevSuperior. Durante minha jornada
+            acadêmica, já possuía familiaridade com essas tecnologias, com um foco especial na documentação,
+            reconhecendo sua importância em projetos de curto e longo prazo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="container mt-4">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title animate__animated animate__fadeInUp">
+            Projetos <i class="fas fa-code"></i>
+          </h2>
+
+          <div id="projects">
+            <!-- Projetos serão adicionados aqui dinamicamente com JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="container mt-4">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title animate__animated animate__fadeInUp">
+            Habilidades <i class="fas fa-laptop-code"></i>
+          </h2>
+          <ul class="animate__animated animate__fadeInUp">
+            <li>Técnicas:
+              <ul>
+                <li>Análise de Dados</li>
+                <li>Programação Orientada a Objetos</li>
+                <li>Implementação de classes UML</li>
+              </ul>
+            </li>
+            <li>Linguagens:
+              <ul>
+                <li>Java</li>
+                <li>Javascript</li>
+              </ul>
+            </li>
+            <li>Frameworks:
+              <ul>
+                <li>Spring Boot</li>
+                <li>JPA</li>
+              </ul>
+            </li>
+            <li>Bancos de Dados:
+              <ul>
+                <li>SQL</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </li>
+            <li>Linguagens de marcação:
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </li>
+            <!-- Adicione mais habilidades conforme necessário -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="container mt-4">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title animate__animated animate__fadeInUp">
+            Contato <i class="fas fa-envelope"></i>
+          </h2>
+          <p class="animate__animated animate__fadeInUp">
+            <i class="fas fa-phone"></i> Telefone: (018) 98110-9668
+          </p>
+          <p class="animate__animated animate__fadeInUp">
+            <i class="fas fa-at"></i> Email: murilo.rb60@gmail.com
+          </p>
+          <p class="animate__animated animate__fadeInUp">
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/murilo-rb60" target="_blank">Perfil LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3 animate__animated animate__fadeInUp">
+      <p>&copy; 2024 Murilo Ribeiro - Desenvolvedor Backend</p>
+    </footer>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

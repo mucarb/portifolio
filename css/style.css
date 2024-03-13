@@ -1,0 +1,167 @@
+/* Estilos Gerais */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding-top: 56px;
+}
+
+/* Estilos da Barra de Navegação */
+.navbar {
+  transition: background-color 0.3s, box-shadow 0.3s;
+  background-color: #f8f9fa;
+  /* Cor de fundo da barra de navegação */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.navbar-scrolled {
+  background-color: #1e3a5e;
+  /* Cor de fundo quando a barra de navegação é rolada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+}
+
+#sidebarCollapse {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+#sidebarCollapse:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos da Barra Lateral */
+.wrapper {
+  display: flex;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #1e3a5e;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+#sidebar.active {
+  min-width: 80px;
+  max-width: 80px;
+}
+
+#sidebar,
+#sidebar a {
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+#sidebar a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#sidebar a:hover {
+  background: #007bff;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+}
+
+/* Estilos do Conteúdo da Página */
+#content {
+  width: 100%;
+  padding: 20px;
+  transition: all 0.3s;
+}
+
+#content.active {
+  width: calc(100% - 250px);
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Estilos do Cabeçalho */
+header {
+  background-color: #1e3a5e;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  animation: fadeInUp 1s ease;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section p {
+  text-align: justify;
+}
+
+/* Estilos das Seções */
+.section-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease;
+}
+
+/* Estilos dos Projetos */
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+  animation: fadeIn 1s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  animation: shake 0.5s;
+}
+
+.project-card h4 {
+  font-size: 1.5em;
+}
+
+.project-card p {
+  font-size: 1.1em;
+}
+
+.project-card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos do Rodapé */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  animation: fadeInUp 1s ease;
+}
